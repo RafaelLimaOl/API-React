@@ -1,7 +1,7 @@
 
-<h1 align="center">🔗 React API Pública</h1>
+<h1 align="center">🔗 CRUD C#</h1>
 
-<p align="center">Um projeto utilizando a API pública do GitHub, para encontrar todos os respositórios do usuário digitado!</p>
+<p align="center">Um projeto CRUD utilizando C# para o BackEnd e o React para o FrontEnd!</p>
 
 # Tópicos:
 
@@ -18,7 +18,7 @@
 
 - React: Para a parte visual do Site,  
 - Node.JS: Para a instalação de Dependências do projeto, 
-- Axios:  Ppara as requisições HTTP 
+- Axios:  Para as requisições HTTP 
 
 
 <h1 align="center" id="pre_req">⚠Pré - Requisitos⚠</h1>
