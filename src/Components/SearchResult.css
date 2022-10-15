@@ -1,0 +1,107 @@
+input{
+
+    height: 25px;
+    width: 200px;
+    border-radius: 16px;
+
+    padding: 4px 15px;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+input:focus{
+    outline: 2px solid #0ff0fc;
+}
+
+button{
+
+    height: 30px;
+    width: 150px;
+    background-color: #017a80;
+    color: white;
+    transform: translateX(25px);
+    border-radius: 16px;
+    border: none;
+    outline: none;
+
+    transition: all .5s ease-in-out;
+}
+
+button:hover{
+    scale: 1.12;
+    background-color: #02d6e1;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+li{
+    line-height: 2;
+}
+
+ul.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 460px){
+
+    input{
+        width: 150px;
+    }
+
+    li{
+        line-height: 1.5;
+    }
+
+    ul.header{
+        transform: translateX(-10px);
+    }
+
+    li.headerId:first-child{
+        display: none;
+    }
+    li.listID{
+        display: none;
+    }
+
+    div.containerList{
+        display: flex;
+        transform: translateX(-10px);
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.containerButton{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    div.containerButton button{
+        margin-top: 10px;
+        transform: none;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
